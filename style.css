@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#bigfirstdiv {
+    border: 1px solid black;
+    width: 535px;
+    height: 265px;
+    border-radius: 20px;
+    margin: 0px auto;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+#leftbigdiv {
+    border: 2px solid black;
+    width: 280px;
+    height: 200px;
+    border-radius: 10px;
+    gap: 3px;
+    margin: auto 20px;
+}
+
+.topbox{
+    border: 1px solid black;
+    height: 40px;
+    border-radius: 7px;
+    width: 90px;
+}
+
+.squarenumbers {
+    border: 1px solid black;
+    height: 20px;
+    width: 20px;
+}
+
+.circlenumbers {
+    border: 1px solid black;
+    height: 20px;
+    border-radius: 100%;
+    width: 20px;
+}
+
+#topboxes {
+    display: flex;
+    margin: 0px auto;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#squareboxes {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    text-align: center;
+    margin-bottom: 13px
+}
+
+#circleboxes {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 10px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#smallrectangle {
+    margin: 0px auto;
+    border: 1px solid black;
+    width: 100px;
+    height: 7px;
+    border-radius: 2px;
+}
+
+#rightbigdiv {
+    border: 2px solid black;
+    height: 119px;
+    width: 90px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    
+}
+
+#rightsmalldiv {
+    border: 2px solid black;
+    height: 71px;
+    width: 90px;
+    border-radius: 10px;
+}
+
+#rightdiv {
+    display: flex;
+    flex-direction: column;
+    margin: auto 0px;
+    height: 200px;
+}
+
+#onenumber {
+    height: 20px;
+    width: 20px;
+    border: 1px solid black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    border-top-right-radius: 10px;
+
+}
+
+#fournumber {
+    height: 20px;
+    width: 20px;
+    border: 1px solid black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 77px;
+}
+
+#onediv {
+    display: flex;
+    justify-content: end;
+}
+
+#fourdiv {
+    display: flex;
+    justify-content: center;
+}
+
+#twonumber {
+    height: 20px;
+    width: 20px;
+    border: 1px solid black;
+    border-top-left-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#threenumber {
+    height: 20px;
+    width: 20px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-right-radius: 10px;
+}
+
+#threediv {
+    height: 50px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+#secondsmalldiv {
+    border: 1px solid black;
+    width: 535px;
+    height: 60px;
+    border-radius: 5px;
+    margin: 0px auto;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#wherebox {
+    border: 1px solid black;
+    width: 450px;
+    height: 30px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+#where {
+    height: 20px;
+    border: 1px solid black;
+    margin-left: 10px;
+    font-family: Bahnschrift;
+    color: black;
+    font-weight: 100;
+}
+
